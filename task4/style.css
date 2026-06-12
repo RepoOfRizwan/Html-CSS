@@ -1,0 +1,76 @@
+@font-face {
+    font-family: iphone;
+    src: url(./sf-pro-text_regular.woff2);
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 200;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#box1 {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 22px;
+    background-color: rgb(17, 17, 18);
+}
+.h4{
+    font-family: iphone;
+     font-weight: 100;
+     font-size: 13px;
+     color: aliceblue;
+}
+i{
+    color: white;
+    font-size: medium;
+}
+#centre{
+     width: 100%;
+     height: 850px;
+    background-image: url(./hero_endframe__gb7f6nb06rau_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box1 h5{
+    font-size:14px ;
+}
+#link{
+    display: flex ;
+    justify-content: center;
+    
+
+}
+button{
+    
+
+    padding: 15px 26px;
+    border-radius: 40px;
+    margin-top: 750px;
+    color: aliceblue;
+    background-color: royalblue;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+button:hover {
+    background-color: rgb(77, 115, 227);
+    
+}
+
+
+
+

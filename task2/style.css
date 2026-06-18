@@ -1,0 +1,64 @@
+@font-face {
+    font-family: hii;
+    src: url(./BMWTypeNext-Light\ \(1\).woff2);
+}
+
+@font-face {
+    font-family: bye;
+    src: url(./RUSTED\ PERSONAL\ USE.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica neue;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-image: url(./cash-macanaya-K3H0pgH4fok-unsplash.jpg);
+    background-size: cover;
+    background-position: top;
+
+}
+
+#p {
+    text-align: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: 50px;
+
+}
+
+button {
+    color: rgb(220, 50, 16);
+    background-color: transparent;
+    margin-top: 60px;
+    padding: 20px 50px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: hii;
+    border: 2px solid white;
+}
+
+p {
+    font-family: bye;
+    font-weight: 450;
+    font-size: 125px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: rgba(121, 90, 38, 0.308);
+    transform: scale(1.05)
+}
